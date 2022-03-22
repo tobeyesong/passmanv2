@@ -1,0 +1,46 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.PhoneInputInput {
+  @apply px-4 py-2 pl-1 text-lg border border-gray-300 rounded-md shadow focus:outline-none focus:border-blue-500;
+}
+
+.PhoneInputCountrySelectArrow {
+  @apply p-1;
+}
+
+.PhoneInputCountry {
+  @apply p-2 bg-gray-100 rounded-md;
+}
+
+.PhoneInputCountrySelect {
+  @apply absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer;
+}
+
+.ais-SearchBox-form {
+  @apply relative w-full text-gray-400 focus-within:text-gray-600;
+}
+
+.ais-Hits-list {
+  @apply mr-2;
+}
+
+/* .ais-Hits-item {
+  @apply flex-auto py-1 mt-2 rounded-md shadow-md;
+} */
+
+/* .ais-Hits-item img {
+  @apply flex;
+} */
+
+.ais-SearchBox-form input[type="search"] {
+  @apply block w-full h-full py-5 pl-8 pr-3 text-gray-900 focus:ring-0 focus:border-transparent sm:text-sm;
+}
+
+.ais-SearchBox-submit,
+.ais-SearchBox-reset {
+  @apply hidden;
+}
